@@ -1,0 +1,9 @@
+# Anything that names or describes a real person stays out of git.
+private/*
+!private/.gitkeep
+log/*.csv
+!log/hours.template.csv
+.env
+.env.*
+*.local.*
+__pycache__/
